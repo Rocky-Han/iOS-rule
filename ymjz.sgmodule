@@ -1,9 +1,9 @@
-#!name=一木记账
-#!desc=Mac 修正版
+#!name=YMJZ
+#!desc=YMJZ Pro Unlock
 #!system=macOS,iOS
 
 [MITM]
 hostname = %APPEND% yimuapp.com
 
 [Script]
-一木记账 = type=http-response,pattern=^https?:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ymjz.js
+ymjz = type=http-response,pattern=^https?:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ymjz.js
